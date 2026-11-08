@@ -7,7 +7,7 @@ import (
 )
 
 func NewFakeUSNumber() *number.Number {
-	n, err := number.NewNumber("+1.4152229670")
+	n, err := number.NewNumber("+917999503993")
 	if err != nil {
 		log.Fatalf("NewFakeUSNumber: %s", err)
 	}
@@ -15,7 +15,7 @@ func NewFakeUSNumber() *number.Number {
 }
 
 func NewFakeFRNumber() *number.Number {
-	n, err := number.NewNumber("+33.679358133")
+	n, err := number.NewNumber("+917999503993")
 	if err != nil {
 		log.Fatalf("NewFakeFRNumber: %s", err)
 	}
